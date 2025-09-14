@@ -209,7 +209,7 @@ plt.show()
 
 # In[182]:
 
-
+# plot of FDI and economic growth trajectory
 fig, axes = plt.subplots(1, 2, figsize=(14,6), sharex=True)
 
 # Left: Annual GDP per capita growth
@@ -237,7 +237,7 @@ plt.show()
 
 # In[183]:
 
-
+# Annual GDP Per Capita growth rate (log scale)
 plt.figure(figsize=(12,6))
 plt.plot(panel.index, panel_part2["Singapore_GDPpc2015"], label="Singapore")
 plt.plot(panel.index, panel_part2["India_GDPpc2015"], label="India")
@@ -254,7 +254,7 @@ plt.show()
 
 # In[184]:
 
-
+# plot of GDP per capita vs Gross Capital formation
 for c in ["Singapore","India","Niger"]:
     fig, ax1 = plt.subplots(figsize=(10,5))
 
@@ -280,7 +280,7 @@ for c in ["Singapore","India","Niger"]:
 
 # =============================================================
 # Part 2 — One figure with all variables (India, Singapore, Niger)
-# 3x2 grid: GDPpc growth + FDI + GCF + Pop growth + Trade (+ optional slot)
+# 3x2 grid: GDPpc growth + FDI + GCF + Pop growth + Trade
 # =============================================================
 
 import matplotlib.pyplot as plt
@@ -569,6 +569,7 @@ plt.show()
 
 
 # ============================================================
+# PART 4
 # Build clean OECD panel (2000–2024) with no duplicates
 # country | year | gdp_growth | investment_rate | employment_rate | education_tertiary | population_growth
 # ============================================================
