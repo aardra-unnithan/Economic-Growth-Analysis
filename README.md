@@ -1,14 +1,14 @@
 # Economic-Growth-Analysis
 Analysis of three countries at different growth stages and OECD growth, with a focus on country-specific trajectories.
 **# Project structure**
-Main Python script containing all parts of the analysis:
-Part 1: Data cleaning for India, Singapore, and Niger (GDP per capita, FDI, population growth, gross capital formation, trade openness).
-Part 2: Growth trajectory analysis and cross-country visualizations.
-Part 3: Country-specific analysis for India (growth periods, reforms, key determinants).
-Part 4: OECD dataset cleaning and analysis (2000–2024).
+#Main Python script containing all parts of the analysis:
+#**Part 1:** Data cleaning for India, Singapore, and Niger (GDP per capita, FDI, population growth, gross capital formation, trade openness).
+#**Part 2:** Growth trajectory analysis and cross-country visualizations.
+#**Part 3:** Country-specific analysis for India (growth periods, reforms, key determinants).
+#**Part 4:** OECD dataset cleaning and analysis (2000–2024).
 
-data/ → Raw datasets (World Bank WDI CSVs and OECD CSVs).
-outputs/ → Generated plots and summary tables.
+#data/ → Raw datasets (World Bank WDI CSVs and OECD CSVs).
+#outputs/ → Generated plots and summary tables.
 
 **# Data Source**
 **#World Bank (WDI)**
